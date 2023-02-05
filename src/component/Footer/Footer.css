@@ -1,0 +1,29 @@
+footer{
+    padding: 50px;
+  }
+  .footer_items{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_items >*{
+    margin-bottom: 20px;
+  }
+  .footer_items>.socialMedia{
+    justify-content: center;
+  }
+  .footer_items .icon__card{
+    background-color: #ff014f;
+    color: #fff;
+  }
+  @media only screen and (max-width: 600px){
+    .footer_items{
+      width: 200px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }

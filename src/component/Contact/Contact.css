@@ -1,0 +1,80 @@
+.contact__section{
+  padding: 50px;
+}
+.contact__form{
+  min-width: 780px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 15px;
+}
+.form__Div{
+  padding: 50px;
+  border-radius: 15px;
+}
+.two__column{
+  grid-column:1/3;
+  width: 100%;
+}
+.two__column>textarea{
+  width: 100%;
+  border-radius: 5px;
+  border:#DADADA solid 2px;
+}
+input{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border:#DADADA solid 2px;
+  padding-left: 20px;
+}
+form>button{
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+.button__div{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-weight: 500;
+}
+.button__div >p{
+  margin: auto;
+  
+}
+
+
+/* .contact__form>div>p{
+  margin: 0;
+} */
+/* .contact__form:nth-child(-n + 2){
+
+} */
+@media only screen and (max-width: 600px){
+  .contact__section{
+    padding: 5%;
+  }
+  .form__Div{
+    padding: 5%;
+    border-radius: 15px;
+    
+  }
+  .contact__form{
+    min-width: 100% ;
+    margin: auto;
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 15px;
+  }
+  .two__column{
+    grid-column:1/2;
+    width: 100%;
+  }
+  .contact__form>div{
+    width: 100%;
+  }
+}
